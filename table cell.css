@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+
 .element1,.element2, .element3{
     width: 60px;
     height: 60px;
@@ -22,7 +23,7 @@
 
 }
 .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9{
-    background: rgb(200, 221, 14);
+    background: rgb(58, 110, 206);
     border: 1px solid white;
     width: 180px;
     height: 180px;
