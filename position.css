@@ -12,7 +12,7 @@
   background: turquoise;
   width: 180px;
   height: 180px;
-  position: relative;
+  position: relative; /*todos los elementos se aliniearan en base a este contenedor*/
 }
 
 .element1, .element2, .element3, .element4, .element5, .element6, .element7, .element8, .element9 {
@@ -26,68 +26,75 @@
 .element1 {
   background: papayawhip;
   position: absolute;
-  // left: ;
-  // top: ;
+  left: 0;
+  top: 0 ;
 }
 
 .element2 {
   background: papayawhip;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 0;
+  top: 50%; /*esto hace q en base a la caja grande suba en su mitad*/
+  transform: translate(0,-50%); /*esto sirve para ajustar la cajita dentro de la caja grande
+  de esta manera decimos las coordenadas 
+  x=0, que esté pegado 
+  y= -50%, que suba en su mitad
+  y ya con esto la cajita queda en la mitad de la mitad
+  */
+
 }
 
 .element3 {
   background: papayawhip;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 0;
+  top:100%; /*para q se baje el total*/
+  transform: translate(0, -100%);
+  
 }
 
 .element4 {
   background: pink;
   position: absolute;
-  // left: ;
-  // transform: ;
+  left: 0;
+  top: 0;
 }
 
 .element5 {
   background: pink;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 0;
+  top: 50%;
+  transform:translate(0, -50%) ;
 }
 
 .element6 {
   background: pink;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 0;
+  top: 100%;
+  transform: translate(0, -100%);
 }
 
 .element7 {
   background: lightcyan;
   position: absolute;
-  // left: ;
-  // transform: ;
+  left: 0;
+  transform: 0;
 }
 
 .element8 {
   background: lightcyan;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .element9 {
   background: lightcyan;
   position: absolute;
-  // left: ;
-  // top: ;
-  // transform: ;
+  left:0 ;
+  top: 100%;
+  transform: translate(0, -100%);
 }
