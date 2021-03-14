@@ -34,7 +34,8 @@
   background: papayawhip;
   position: absolute;
   left: 0;
-  top: 50%; /*esto hace q en base a la caja grande suba en su mitad*/
+  top: 50%; /*lo que hace es tomar la caja grande, y fuera del 50% de esta caja gran
+  es colocado la cajita */
   transform: translate(0,-50%); /*esto sirve para ajustar la cajita dentro de la caja grande
   de esta manera decimos las coordenadas 
   x=0, que esté pegado 
@@ -48,7 +49,7 @@
   background: papayawhip;
   position: absolute;
   left: 0;
-  top:100%; /*para q se baje el total*/
+  top:100%; /*Esto dice que la cajita estará afuera del total de la caja grande; con el 100% es  para q se baje el total*/
   transform: translate(0, -100%);
   
 }
@@ -98,3 +99,12 @@
   top: 100%;
   transform: translate(-100%, -100%);
 }
+/*Aquí qué aprendemos de cada uno
+left= cuando le ponga un valor en % quiere decir que a la caja le saco un porcentaje y fuera de este le pongo mi cajita
+ejem usé 50%, es decir a la caja se parte en dos y fuera de la primera parte irá mi cajita
+Top= es similar al de arriba solo que me indica que tanto con referencia lo vertical
+Transform: translate (x, y)  --> aqui por coordenadas vamos acomodando
+por ejm q nos quedó un poco afuera de donde queremos; usamos los valores en positivo (+) para q baje o vaya a la derecha 
+y negativo (-) para que vaya arriba o a la izquierda
+
+*/
