@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /*para hacer columnas */
-    grid-gap: 5px; /* es para poner una separacion entre cabina y cabina*/
-    font-family: 'Lato', sans-serif;
-    width: 550px;
-}
-.container{
-    background-color: turquoise;
-    width: 180px;
-    height: 180px;
-    
-}
+
 .element, .element1,.element2, .element3, .element4, .element5, .element6, .element7, .element8, .element9 {
     width: 60px;
     height: 60px;
@@ -21,77 +9,48 @@
     border: 1px solid black;
     
 }
-.container{
-    text-align: left;
-    line-height: 180px;
-    ;
-}
+
 .element1{
     background:papayawhip;
-    display: inline-block;
-    margin: 0 ;
-    line-height: 45px; /*sube el texto*/
-    vertical-align: top; /*acomoda la cajita o el div*/
+ 
 }
 .element2{
-    background:papayawhip;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align:middle ;
+    background:pink;
 }
 .element3{
-    background:papayawhip;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align:bottom ;
+    background:lightcyan;
+
+}
+.container, .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9{
+    background: turquoise;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+}
+.container1{
+    display: table-cell;
 }
 .container2{
-    background-color: turquoise;
-    width: 180px;
-    height: 180px;
-    text-align: center;
-    line-height: 180px;
-}
-.element4{
-    background:pink;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align: top;
-}
-.element5{
-    background:pink;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align: middle;
-}
-.element6{
-    background:pink;
-    display: inline-block  ;
-    line-height: 20px;
-    vertical-align: bottom;
+    display: table-cell;
 }
 .container3{
-    background-color: turquoise;
-    width: 180px;
-    height: 180px;
-    text-align: right;
-    line-height: 180px;
+    display: table-cell;
 }
-.element7{
-    background:lightcyan;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align: top;
+.container4{
+    display: table-cell;
 }
-.element8{
-    background:lightcyan;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align: middle;
+.container5{
+    display: table-cell;
 }
-.element9{
-    background:lightcyan;
-    display: inline-block;
-    line-height: 20px;
-    vertical-align: bottom;
+.container6{
+    display: table-cell;
+}
+.container7{
+    display: table-cell;
+}
+.container8{
+    display: table-cell;
+}
+.container9{
+    display: table-cell;
 }
