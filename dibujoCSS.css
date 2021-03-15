@@ -62,3 +62,15 @@ body{
     border-radius: 
         100% 0% 50% 50% / 0% 0% 100% 100%;
 }
+.face::after{
+    content: '';
+    position: absolute;
+    background-color: var(--face);
+    top: -25px;
+    left: 120px;
+    width: 75px;
+    height: 30px;
+    transform: rotate(-20deg);
+    border-radius: 
+        100% 0% 50% 50% / 0% 0% 100% 100%;
+}
