@@ -1,46 +1,56 @@
 section{
     display: flex;
     justify-content: space-evenly;
-    padding: 5px;
+    padding: 10px;
     flex-wrap: wrap;
 }
+
+.card_header{
+    background-color: rgb(144, 203, 226);
+    padding: 20px;
+    color: white;
+}
+.card_maind{
+    color: rgb(75, 68, 67);
+    background-color: thistle;
+}
 .card1{
-    background-color: salmon;
+    background-color: rgb(243, 182, 176);
     width: 300px;
     height: 150px;
     border-radius: 10px;
     overflow: hidden;
     direction: rtl;
     writing-mode: vertical-lr;
-}
-.card_header{
-    background-color: skyblue;
-    padding: 20px;
+    margin: 5px;
 }
 .card2{
-    background-color: rgb(148, 189, 172);
+    background-color: rgb(184, 236, 214);
     width: 300px;
     height: 150px;
     border-radius: 10px;
     overflow: hidden;
-    direction: rtl;
+    direction: ltr;
     writing-mode: vertical-lr;
+    margin: 5px;
 }
 .card3{
-    background-color: rgb(212, 233, 25);
+    background-color: rgb(222, 230, 152);
     width: 300px;
     height: 150px;
     border-radius: 10px;
     overflow: hidden;
-    direction: rtl;
-    writing-mode: vertical-lr;
+    direction: ltr;
+    writing-mode: vertical-rl;
+    margin: 5px;
 }
 .card4{
-    background-color: rgb(192, 14, 236);
+    background-color: rgb(207, 151, 221);
     width: 300px;
     height: 150px;
     border-radius: 10px;
     overflow: hidden;
     direction: rtl;
-    writing-mode: vertical-lr;
+    writing-mode: horizontal-tb;
+    margin: 5px;
 }
