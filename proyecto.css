@@ -1,0 +1,11 @@
+
+
+.redes{
+    display: flex;
+    background-color: #b4aee8;
+}
+.redes img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+}

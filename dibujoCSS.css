@@ -1,13 +1,19 @@
 :root{
     --main-bg-color: #422261;
-    --face:#422261;
+    --face:black;
+    --eyes:rgb(87, 49, 17);
 }
 *{
-    border: 5px solid;
+    /*border: 5px solid red;*/
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+/*.dibujo1{
+    border: 5px solid black;
+    width: 850px;
+    height: 400px;
+}*/
 body{
     display: flex;
     justify-content: center;
@@ -23,8 +29,9 @@ body{
     border-radius: 28% 72% 33% 67% / 21% 83% 17% 79% ;
     transform: rotate(13deg);
     box-shadow: 
-        -80px 5px 0px -2px #f8931f,     /*BS 1*/
         -40px 4px 0px -1px #fbb03b,     /*BS 2*/
+        -80px 5px 0px -2px #f8931f,     /*BS 1*/
+        
         40px -15px 0px 0px #f87700,     /*BS 3*/
         80px -35px 0px -2px #f8931f;    /*BS 4*/
 }
@@ -41,7 +48,7 @@ body{
 }
 .stem::before{
     content: '';
-    border: 20px solid red;
+    /*border: 20px solid red;*/
     position: absolute;
     top:0px;
     left: 50px;
@@ -53,7 +60,7 @@ body{
 .face{
     width: 75px;
     height: 30px;
-    background-color: var(--face);
+    background-color: var(--eyes);
     position: relative;
     left: 60px;
     bottom: 40px;
@@ -65,7 +72,7 @@ body{
 .face::after{
     content: '';
     position: absolute;
-    background-color: var(--face);
+    background-color: var(--eyes);
     top: -25px;
     left: 120px;
     width: 75px;
@@ -78,12 +85,15 @@ body{
     content: '';
     position: absolute;
     top: 75px;
+    left: 15px;
     background-color: var(--face);
     transform: rotate(-10deg);
     width: 200px;
     height: 50px;
-    clip-path: 
-    polygon(0% 35%, 17% 2%, 21% 37%, 31% 17%, 36% 32%, 49% 6%, 63% 34%, 86% 8%, 85% 30%, 100% 30%, 94% 60%, 79% 98%, 66% 62%, 63% 94% 53% 76%, 42% 100%, 31% 62%, 17% 96%, 14% 66% );
+    clip-path: polygon(0% 35%, 17% 2%, 21% 37%, 31% 17%, 36% 32%, 49% 6%, 63% 34%, 86% 8%, 85% 30%, 100% 30%, 94% 60%, 79% 98%, 66% 62%, 63% 94% 53% 76%, 42% 100%, 31% 62%, 17% 96%, 14% 66% );
+ }
+ 
+ .face::before{
     animation-name: pulse;
     animation-duration: 1.5s;
     animation-iteration-count:infinite ;

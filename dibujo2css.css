@@ -1,0 +1,36 @@
+:root{
+    --skin: #f6c09c;
+    --backdrop: #ed4042;
+    --red:#ed2860;
+    --dark-red:#680524;
+    --black:#00243a;
+    --white:#fff;
+}
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 2px solid;
+    background-color:rgb(34, 65, 83) ;
+}
+.escenario{
+    width: 500px;
+    height: 200px;
+    background: var(--skin);
+    
+    position: relative;
+}
+
+.teclado{
+    width: 120px;
+    height: 10px;
+    background: var(--white);
+    position: absolute;
+    top: 110px;  
+    left: 30px;
+
+}
