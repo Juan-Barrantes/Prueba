@@ -2,3 +2,16 @@
     --main-bg-color: #422261;
     --face:#422261;
 }
+*{
+    border: 5px solid red;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+}
