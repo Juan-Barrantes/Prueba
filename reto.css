@@ -1,0 +1,46 @@
+section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.card1{
+    background-color: salmon;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: vertical-lr;
+}
+.card_header{
+    background-color: skyblue;
+    padding: 20px;
+}
+.card2{
+    background-color: rgb(148, 189, 172);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: vertical-lr;
+}
+.card3{
+    background-color: rgb(212, 233, 25);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: vertical-lr;
+}
+.card4{
+    background-color: rgb(192, 14, 236);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: vertical-lr;
+}
