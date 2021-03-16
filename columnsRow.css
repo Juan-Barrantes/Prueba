@@ -1,0 +1,28 @@
+.container1{
+    display: grid;
+    grid-template-columns: repeat(5, 15px);
+    grid-template-rows: repeat(5,15px);
+}
+/*De forma reducida tmb sería*/
+/*
+.container{
+    display: grid;
+    grid-template; repeat(5,20px) / repeat (5, 20px)
+}
+/*Si se quiere que los bordes tengan un grosor se le agrega lo siguiente
+    oldway
+        grid-row-gap:5px;
+    standar (hoy en dia)
+        row-gap:5px;
+*/
+.container2{
+    display: grid;
+    grid-template-columns: repeat(5, 15px);
+    grid-template-rows: repeat(5,15px);
+    grid-template-areas:
+        "header header  header  header  header"
+        "header header  header  header  header"
+        "main   main    .       sidebar sidebar"
+        "main   main    .       sidebar sidebar"
+        "footer footer  footer  footer  footer";
+}
