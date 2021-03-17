@@ -95,3 +95,10 @@
     line-height: 20px;
     vertical-align: bottom;
 }
+footer{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+}
