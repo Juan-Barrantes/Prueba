@@ -1,3 +1,10 @@
+header{
+    text-align: center;
+    background-color: blue;
+    color: azure;
+    font-size: medium;
+    font-family: fantasy;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .wrapper{
     display: grid;
